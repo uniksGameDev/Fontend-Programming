@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attribute</title>
+</head>
+<body>
+    <h1>Form Attribute</h1><br/>
+    <form novalidate>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" min="5" max="10"><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="quantity">quantity: </label>
+        <input type="number" id="quantity" name="quantity" min="5" max="10"><br><br>
+
+        <label for="search">Search: </label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <label for="s_date">Start Date: </label>
+        <input type="date" id="s_date" name="start date"><br><br>
+
+        <label for="pass">Password: </label>
+        <input type="password" id="pass" name="password"><br><br>
+
+        <label for="city">City: </label>
+        <select name="city" id="city">
+            <option value="mumbai">Mumbai</option><br>
+            <option value="nashik">Nashik</option><br>
+            <option value="pune">Pune</option><br>
+            <option value="jalgaon">Jalgaon</option><br>
+            <option value="jalna">Jalna</option><br>
+            <option value="shirpur">Shirpur</option>
+        </select><br><br>
+
+        <label for="interest">Interest: </label>
+        <div id="interest">
+            <label><input type="checkbox" name="interest" value="cricket">Cricket</label><br>
+            <label><input type="checkbox" name="interest" value="movie">Movie</label><br>
+            <label><input type="checkbox" name="interest" value="anime">Anime</label><br>
+            <label><input type="checkbox" name="interest" value="study">Study</label>
+        </div><br>
+
+        <label for="gender">Gender: </label>
+        <fieldset id="gender">
+            <label><input type="radio" name="gender" value="male">Male</label><br>
+            <label><input type="radio" name="gender" value="female">Female</label>
+        </fieldset><br>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
