@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table Tag</title>
+        <style>
+            table, th, td
+            {
+                border: 1px solid black;
+            }
+            table
+            {
+                border-collapse: collapse;
+            }
+            th, td
+            {
+                padding-left    : 10px;
+                padding-right   : 10px;
+                padding-top     : 5px;
+                padding-bottom  : 5px;
+            }
+            td
+            {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Weather Report</h1>
+        <hr />
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="3">Month</th>
+                    <th colspan="2">Temperature</th>
+                    <th colspan="2">Relative Humidity</th>
+                    <th rowspan="2">Wind Velocity</th>
+                    <th rowspan="2">Sunshine Hours</th>
+                </tr>
+                <tr>
+                    <th>min</th>
+                    <th>max</th>
+                    <th>min</th>
+                    <th>max</th>
+                </tr>
+                <tr>
+                    <th>C</th>
+                    <th>C</th>
+                    <th>%</th>
+                    <th>%</th>
+                    <th>km/hr)</th>
+                    <th>hr</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jan</td>
+                    <td>06</td>
+                    <td>19</td>
+                    <td>56</td>
+                    <td>93</td>
+                    <td>3</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Feb</td>
+                    <td>08</td>
+                    <td>28</td>
+                    <td>48</td>
+                    <td>90</td>
+                    <td>4</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>March</td>
+                    <td>11</td>
+                    <td>27</td>
+                    <td>38</td>
+                    <td>86</td>
+                    <td>5</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Apr</td>
+                    <td>16</td>
+                    <td>34</td>
+                    <td>25</td>
+                    <td>69</td>
+                    <td>5</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>May</td>
+                    <td>22</td>
+                    <td>27</td>
+                    <td>31</td>
+                    <td>76</td>
+                    <td>5</td>
+                    <td>8</td>
+                </tr>
+            </tbody>    
+        </table>
+    </body>
+</html>
