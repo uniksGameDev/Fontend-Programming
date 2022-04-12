@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center style="font-weight: bold;">
+        <h1 class="title">Project Management</h1>
+        
+        <form class="form-container">
+            <table>
+                <tr>
+                    <td>Project Name</td>
+                    <td><input class="i1"type="text"></td>
+                </tr>
+                <tr>
+                    <td>Assign TO</td>
+                    <td>
+                        <select name="assign" id="assign">
+                            <option value="person-1">Person 1</option>
+                            <option value="person-2">Person 2</option>
+                            <option value="person-3">Person 3</option>
+                            <option value="person-4">Person 4</option>
+                            <option value="person-5">Person 5</option>
+                            <option value="person-6">Person 6</option>
+                        </select>
+                    </td>
+                </tr>
+                    <td>Start Date</td>
+                    <td><input type="date" class="i1"></td>
+                </tr>
+                <tr>
+                    <td>End Date</td>
+                    <td><input type="date" class="i1"></td>
+                </tr>
+
+                <tr>
+                    <td>Priority</td>
+                    <td>
+                        <input type="radio" name>High
+                        <input type="radio" name>Average
+                        <input type="radio" name>Low
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Description</td>
+                    <td><textarea name="description" id="description" class="i1"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit" class="red">Submit</button>
+            <button type="reset" class="green">Clear</button>
+        </form>
+    </center>
+</body>
+</html>

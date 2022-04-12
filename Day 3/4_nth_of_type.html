@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth of Type Selector</title>
+
+    <style>
+        [href]
+        {
+            color: goldenrod;
+        }
+        a[href]
+        {
+            text-decoration: none;
+        }
+        a[target="_blank"]
+        {
+            color: brown;
+            font-size: 2em;
+        }
+        div a:nth-of-type(2)
+        {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nth of Type Selector</h1>
+
+    <a href="https://www.google.com">Google Search</a>
+    <a href="https://www.google.com" target="_blank">Google Search</a>
+
+    <span>Span 1</span>
+
+    <a href="https://www.facebook.com">Facebook</a>
+
+    <span>Span 2</span>
+
+    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab amet nisi rem praesentium suscipit, eos voluptates asperiores expedita excepturi ullam fugit quam modi voluptas impedit nobis porro iure sapiente optio. <br/>
+
+        <span>Span 3</span>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <span>Span 4</span><br/>
+
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam laboriosam illum corrupti unde iusto, voluptatem, dolores eligendi ad similique maxime optio velit doloribus voluptate soluta reiciendis nihil maiores asperiores quasi!
+    </div>
+</body>
+</html>

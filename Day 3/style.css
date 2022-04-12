@@ -1,0 +1,51 @@
+.title
+{
+    text-decoration: underline;
+}
+
+.form-container
+{
+    background-color: aqua;
+    width: 400px;
+    padding: 10px;
+}
+
+.form-container table tr td
+{
+    padding: 20px;
+}
+
+.form-container .i1
+{
+    width: 150px;
+    height: 30px;
+}
+
+
+.form-container select
+{
+    width: 155px;
+    height: 30px;
+}
+
+.green
+{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.red
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
