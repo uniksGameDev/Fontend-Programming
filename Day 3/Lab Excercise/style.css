@@ -1,0 +1,57 @@
+.navbar
+{
+    background-color: #81E6C6;
+    padding: 10px;
+}
+.navbar a
+{
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+}
+.navbar .search_text
+{
+    height: 25px;
+}
+
+.navbar .search_button
+{
+    height: 35px;
+    background-color: #64B39A;
+    border: none;
+    font-weight: bold;
+}
+
+.course_list
+{
+    border: 3px solid #396658;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.course img
+{
+    width: 200px;
+    height: 112px;
+}
+
+.course h1
+{
+    font-size: 20px;
+    color: #396658;
+}
+
+.form
+{
+    background-color: #64B39A;
+    width: 200px;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.form h1
+{
+    font-size: 20px;
+}
